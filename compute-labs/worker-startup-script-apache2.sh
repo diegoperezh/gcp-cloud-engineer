@@ -4,7 +4,8 @@ curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh && sudo
 
 apt -y install apache2
 cat <<EOF > /var/www/html/index.html
-<html><body><h1>Hello World</h1>
-<p>DIEGOOOO dmph 1 apache server.</p>
+<html><body><h1>Hello dph</h1>
+<p>GCP testing project</p>
+<p>Apache server</p>
 </body></html>
 EOF
